@@ -1,0 +1,290 @@
+/*to avoid any problem in ading margin pading */
+* { 
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box; /*to fit the border inside the content not outside the box */
+    
+
+}
+.navbar{
+    background-color: #0f1111;
+    height: 60px;
+    color: white;
+    display: flex; /*as we want this div components to come in same line so we are using flex to align them along row axis*/
+     align-items: center;
+     justify-content: space-evenly;
+     
+}
+.navlogo{
+    height:50px;
+    width:105px;
+   
+}
+.logo{
+    height:50px;
+    width:100%;
+    background-image: url("/images/amazon.webp");
+    background-size: cover;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+/*box2*/
+
+.navdel{
+    font-size: 0.8rem ; /* to make the website responsive*/
+    margin-left:15px;
+}
+.addicon{
+    display:flex;
+    font-size:1rem;
+    align-items: center;
+}
+.delicon{
+    margin-left: 3px;  /*gives space between icon and india*/
+}
+/*box3*/
+.navsearch{
+    display:flex;
+    background-color: rgb(255, 217, 0);
+    height:40px;
+    width:650px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    
+}
+.navitems{
+    width:50px;
+    border: none;
+    background-color: aliceblue;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+}
+.navwrite{
+    width: 100%;
+   border: none;
+   font-size: 1.2rem;
+   text-align: center;
+}
+.navmag{
+    width:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    
+}
+.navmag:hover{
+    background-color: rgb(255, 123, 0);
+}
+/*box4*/
+.navflag{
+    display: flex;
+    height:40px;
+    width:70px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.flag{
+    height:16px;
+    width:20px;
+   
+}
+.navlang{
+   width: 40px;
+   margin-right: 1px;
+ 
+}
+/*box5*/
+.navsignin{
+    height:40px;
+    
+}
+span{
+    font-size: 0.8rem;
+}
+.navaccounts{
+    border: none;
+    font-size: 1rem;
+}
+/*box6*/
+.navpolicy{
+    height: 40px;
+}
+.navreturns{
+    font-size: 0.8rem;
+}
+.navorders{
+    font-size: 1rem;
+}
+/*box7*/
+.navcart{
+    display:flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.navcart i{
+    font-size: 32px;
+}
+/*panel1 */
+/*box1*/
+.panel1{
+    background-color:#222f3d;
+    height: 39px ;
+    color: white;
+    display: flex;
+    
+}
+.menubar{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 8px;
+}
+.panel1values p{
+    display: inline; /* to align paragraphs in same line*/
+    font-size: 0.8rem;
+    margin-left: 10px;
+    justify-content: space-between;
+    height: 39px;
+    width:300px;
+}
+.panelselect{
+    background-color:#222f3d ;
+    border: none;
+}
+.panel1img{
+    height:35px;
+    width: 35px;
+}
+.panel1space{
+    width: 150px;
+    height: 39px;
+}
+.panel1easy{
+    display:flex;
+    margin-right: 0px;
+    justify-content: center;
+    align-items: center;
+}
+/*herosection*/
+.herosection{
+    background-image: url("/images/background.jpg");
+    height:400px;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.heromsg{
+    background-color: azure;
+    height: 40px;
+    color:black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    width:85%;
+    margin-bottom: 20px;
+    
+}
+.heromsg a{
+    text-decoration: none;
+    color: palevioletred;
+}
+.shopsection{
+    background-image: url("/images/background4.jpg");
+    
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    height:400px;
+    width:22%;
+    background-color: aliceblue;
+    border: 2px solid azure;
+    margin-top: 20px;
+
+}
+.box-img{
+    height:300px;
+    background-size: cover;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+.box-content{
+ margin-left: 1rem;
+ margin-right: 1rem;
+}
+.box-content a{
+    text-decoration: none;
+    color: palevioletred;
+}
+/*footer*/
+/*panel1*/
+.foot-panel1{
+    height:45px;
+    background-color:#37475a;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.foot-panel2{
+    height: 350px;
+    color:white;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+ul a{
+    display: block; 
+    color: #dddddd;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+
+.foot-panel3{
+background-color: #222f3d;
+height: 70px;
+border-top: 0.5px solid whitesmoke;
+display: flex;
+justify-content: center;
+}
+.logof{
+    height:50px;
+    width:100px;
+    background-image: url("/images/logof.png");
+    background-size: cover;
+}
+.foot-panel4{
+    height: 50px;
+    background-color: #222f3d;
+    color: white;
+    text-align: center;
+}
+.pages a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+
+
+
+
+
